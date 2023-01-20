@@ -1,4 +1,9 @@
 <view class="card">
 <image class="bg" src="../../img/bg.png" mode="widthFix"></image>
 <image class="logo" src="../../img/logo.png" mode="widthFix"></image>
+<view class="info">
+  <view class="name">Next 学院</view>
+  <view class="desc">专注高质量IT课程</view>
+  <view>next@tencent.com</view>
+</view>
 </view>
