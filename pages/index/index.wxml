@@ -1,0 +1,4 @@
+<view class="card">
+<image class="bg" src="../../img/bg.png" mode="widthFix"></image>
+<image class="logo" src="../../img/logo.png" mode="widthFix"></image>
+</view>
