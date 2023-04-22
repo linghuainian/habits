@@ -1,12 +1,28 @@
 {
   "pages":[
-    "pages/index/index"
+    "pages/index/index",
+    "pages/logs/logs"
+
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Next 学院",
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#FFB6C1",
+    "navigationBarTitleText": "快递查询",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "backgroundColor":"#ffffff",
+    "selectedColor": "#FFB6C1",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"首页",
+        "iconPath": "img/a.jpg"
+      },{
+        "pagePath": "pages/logs/logs",
+        "text": "我的"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
